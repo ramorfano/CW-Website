@@ -1,0 +1,79 @@
+/*background*/
+body{
+    background: rgb(255, 255, 255);
+}
+/*Image Top*/
+.logo img {
+    border-radius: 10px;
+    margin-left: 550px;
+}
+/*border*/
+.aa {
+    border-radius: 0%;
+    background-color: #1e4299;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 5px;
+    color: #ffffff;
+}
+/*Text description*/
+.aa p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+/*Image Products*/
+
+.row img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.cv {
+    position: center;
+    background: #080808;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:26%;
+}
+/*Back Button*/
+.box {
+    height: 40px;
+    width: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.previous {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Download Button*/
+.outer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer button {
+    padding: 1vw;
+    background: rgb(0, 58, 128);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

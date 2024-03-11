@@ -1,0 +1,67 @@
+/*background*/
+body{
+    background: rgb(255, 255, 255);
+}
+/*Image Top*/
+.logo img {
+    border-radius: 5px;
+    margin-left: 500px;
+    width: auto;
+}
+/*border*/
+.aa {
+    border-radius: 5px;
+    background-color: #1100fd;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 5px;
+    color: #ffffff;
+    width: 30%;
+}
+/*Text description*/
+.aa p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+/*Image Products*/
+
+.row img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*Back Button*/
+.box {
+    height: 40px;
+    width: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.previous {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Download Button*/
+.outer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer button {
+    padding: 1vw;
+    background: rgb(0, 58, 128);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,26 @@
+body{
+    background:  white;
+    background-size: cover;
+    margin-top: 50px;
+}
+.container ul li {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+
+
+}
+.container ul li:hover {
+    transform: scale(0.9);
+}
+.container ul img {
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    color: white;
+    border-style: solid;
+    border-color: #4a4e5a
+   
+}

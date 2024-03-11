@@ -1,0 +1,262 @@
+/*header font*/
+body {
+    color: #000000;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 14px;
+    line-height: 1.428571438;
+}
+/*top border header*/
+#top-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff9f9;
+    background-size: cover;
+
+  }
+/*font color header*/
+a {
+    color: #30323a;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+  }
+  /*font hover header*/
+  a:hover,
+  a:focus {
+    color: #f8694a;
+    text-decoration: none;
+    outline: none;
+  }
+  /*text header underline*/
+  a {
+    text-decoration: none
+}
+
+
+ol,ul {
+    margin-top: 0;
+
+}
+
+ol ol,ol ul,ul ol,ul ul {
+    margin-bottom: 0
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width:1170px;
+}
+
+
+  .header-top-links>li>a {
+    cursor: pointer;
+    text-transform: none
+}
+
+.header-top-links > li {
+    display: inline-block;
+  }
+  .header-top-links > li + li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .header-top-links > li > a {
+    align-self: self-end;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+
+.pull-right {
+    float: right
+}
+
+
+/*blue header*/
+#header {
+    padding: 18px;
+    background: #1e4299;
+    
+   
+}
+/*CW Logo*/
+.header-logo {
+    margin-left: 12%;
+        display: unset;
+        margin-right: unset;
+}
+div {
+    display: block;
+}
+/*Text Category*/
+
+.landingpage li {
+    margin-left: 2px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 30px;
+   
+}
+.landing li {
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 63px;
+    text-align: center;
+    text-decoration: none;
+    margin-inline-end: 30px;
+   
+}
+.land li {
+    margin-left: 20px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    margin-inline-end: 15px;
+    
+}
+.landp li{
+    margin-left: 50px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 16px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    margin-inline-end: 60px;
+    
+}
+.landpg li {
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 50px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Qr Pic*/
+.qr1 img {
+    margin-inline-end: 20px;
+    margin-left: 2px;
+    width: 242px;
+}
+
+/*Text Category*/
+.landpag li {
+    margin-left:20%;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 50px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+}
+.landipag li{
+    margin-left: 39px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 50px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+}
+.landipages li {
+    margin-left: 39px;
+    border-style: solid;
+    border-left-color: black;
+    border-right-color: black;
+    margin-inline-end: 100px;
+    float: left;
+    position: relative;
+    width: auto;
+    background: #f8694a;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+    
+
+
+
